@@ -17,3 +17,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.cocoa {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.content-one {
+  margin-top: 0;
+}
