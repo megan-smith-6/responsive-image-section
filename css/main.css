@@ -18,13 +18,25 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-left: .35em;
+}
+
 .cocoa {
+  margin-top: 1.4em;
   margin-bottom: 0;
+  margin-left: .5em;
   font-weight: bold;
 }
 
 .content-one {
   margin-top: 0;
+  margin-left: .5em;
 }
 
 .btn {
@@ -36,6 +48,5 @@ html {
 }
 
 .img-flex {
-  display: inline-block;
-  vertical-align: middle;
+  max-width: 100%;
 }
