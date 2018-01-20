@@ -21,22 +21,24 @@ html {
 body {
   margin: 0;
 }
+article {
+  margin: 1em;
+}
 
 h1 {
+  margin: 0;
   font-size: 1.5em;
-  margin-left: .35em;
 }
 
 .cocoa {
-  margin-top: 1.4em;
+  margin-top: 1.3em;
   margin-bottom: 0;
-  margin-left: .5em;
   font-weight: bold;
 }
 
 .content-one {
   margin-top: 0;
-  margin-left: .5em;
+  margin-bottom: 1.8em;
 }
 
 .btn {
@@ -48,5 +50,8 @@ h1 {
 }
 
 .img-flex {
+  display: inline-block;
   max-width: 100%;
+  margin-top: .5em;
+  padding-bottom: .6em;
 }
