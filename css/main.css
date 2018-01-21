@@ -60,7 +60,7 @@ h1 {
   padding-bottom: .6em;
 }
 
- @media only screen and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
   font: normal 110%/1.4 sans-serif;
@@ -68,13 +68,17 @@ h1 {
 
   section {
     text-align: left;
-    vertical-align: middle;
   }
 
   article {
     margin: 2em 1.2em;
     display: inline-block;
     width: 42%;
+    margin-bottom: 0;
+  }
+
+  .div-one {
+    vertical-align: middle;
   }
 
   .cocoa {
@@ -95,6 +99,55 @@ h1 {
     width: 100%;
     margin: 0;
     padding-bottom: 1.3em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+  font: normal 120%/1.5 sans-serif;
+  }
+
+  section {
+    padding-bottom: .5em;
+  }
+
+  article {
+    vertical-align: top;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    padding-top: 1.9em;
+  }
+
+  .img-flex {
+    padding-top: 2em;
+    max-width: 27em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+  font: normal 130%/1.5 sans-serif;
+  }
+
+  article {
+    padding-top: 2.2em;
+    max-width: 23em;
+    margin-left: 10em;
+    margin-right: 1em;
+  }
+
+  .div-two {
+    max-width: 25em;
+  }
+
+  .img-flex {
+    padding-top: 2em;
+    max-width: 25em;
   }
 
 }
